@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "node_id",
+      "type",
+      "capacity",
+      "service_min",
+      "price_per_unit"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "node_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "gas",
+          "charger"
+        ]
+      },
+      "capacity": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "service_min": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "price_per_unit": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "additionalProperties": false
+  }
+}

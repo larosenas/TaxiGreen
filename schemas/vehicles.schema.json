@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "kind",
+      "capacity_pax",
+      "start_node",
+      "energy_max",
+      "energy_now",
+      "consumption_per_km"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "kind": {
+        "type": "string",
+        "enum": [
+          "EV",
+          "ICE"
+        ]
+      },
+      "capacity_pax": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "start_node": {
+        "type": "string",
+        "minLength": 1
+      },
+      "energy_max": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "energy_now": {
+        "type": "number",
+        "minimum": 0
+      },
+      "consumption_per_km": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      }
+    },
+    "additionalProperties": false
+  }
+}

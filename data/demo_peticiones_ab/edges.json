@@ -1,0 +1,32 @@
+[
+  {
+    "from": "A",
+    "to": "B",
+    "distance_km": 1.0,
+    "travel_min": 3
+  },
+  {
+    "from": "A2",
+    "to": "C2",
+    "distance_km": 0.7,
+    "travel_min": 2
+  },
+  {
+    "from": "C2",
+    "to": "B2",
+    "distance_km": 0.9,
+    "travel_min": 3
+  },
+  {
+    "from": "B2",
+    "to": "C2",
+    "distance_km": 0.9,
+    "travel_min": 3
+  },
+  {
+    "from": "C2",
+    "to": "A2",
+    "distance_km": 0.7,
+    "travel_min": 2
+  }
+]

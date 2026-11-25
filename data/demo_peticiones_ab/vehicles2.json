@@ -1,0 +1,56 @@
+[
+  {
+    "id": "EV1",
+    "kind": "EV",
+    "capacity_pax": 4,
+    "start_node": "B2",
+    "energy_max": 10.0,
+    "energy_now": 7.0,
+    "consumption_per_km": 0.5
+  },
+  {
+    "id": "EV2",
+    "kind": "EV",
+    "capacity_pax": 4,
+    "start_node": "C2",
+    "energy_max": 10.0,
+    "energy_now": 7.0,
+    "consumption_per_km": 0.5
+  },
+  {
+    "id": "EV3",
+    "kind": "EV",
+    "capacity_pax": 4,
+    "start_node": "A",
+    "energy_max": 10.0,
+    "energy_now": 7.0,
+    "consumption_per_km": 0.5
+  },
+  {
+    "id": "ICE1",
+    "kind": "ICE",
+    "capacity_pax": 4,
+    "start_node": "A",
+    "energy_max": 10.0,
+    "energy_now": 7.0,
+    "consumption_per_km": 0.3
+  },
+  {
+    "id": "ICE2",
+    "kind": "ICE",
+    "capacity_pax": 4,
+    "start_node": "B",
+    "energy_max": 10.0,
+    "energy_now": 7.0,
+    "consumption_per_km": 0.3
+  },
+  {
+    "id": "ICE3",
+    "kind": "ICE",
+    "capacity_pax": 4,
+    "start_node": "C2",
+    "energy_max": 10.0,
+    "energy_now": 7.0,
+    "consumption_per_km": 0.3
+  }
+]

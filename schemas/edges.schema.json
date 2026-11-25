@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "from",
+      "to",
+      "distance_km",
+      "travel_min"
+    ],
+    "properties": {
+      "from": {
+        "type": "string",
+        "minLength": 1
+      },
+      "to": {
+        "type": "string",
+        "minLength": 1
+      },
+      "distance_km": {
+        "type": "number",
+        "minimum": 0
+      },
+      "travel_min": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      }
+    },
+    "additionalProperties": false
+  }
+}

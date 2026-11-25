@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="296" viewBox="0 0 720 296" role="img" aria-label="Search effort: UCS vs A*">
+<title>Search effort: UCS vs A*</title>
+
+  <style>
+    .title { font: 600 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .label { font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .muted { font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #59636e; }
+    .value { font: 600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .grid  { stroke: #d1d9e0; stroke-width: 1; }
+    .s0 { fill: #8c959f; }
+    .s1 { fill: #0969da; }
+    .s2 { fill: #bc4c00; }
+  </style>
+
+<text x="0" y="20" class="title">Search effort: A* expands fewer nodes than UCS for the same routes</text>
+<rect x="0" y="38" width="12" height="12" rx="2" class="s0"/>
+<text x="18" y="48" class="label">UCS (Dijkstra)</text>
+<rect x="154" y="38" width="12" height="12" rx="2" class="s1"/>
+<text x="172" y="48" class="label">A*</text>
+<text x="120" y="92.0" text-anchor="end" class="label">Baseline · fast</text>
+<rect x="130" y="70" width="425.7" height="16" rx="2" class="s0"/>
+<text x="561.7" y="82" class="value">252</text>
+<rect x="130" y="90" width="393.6" height="16" rx="2" class="s1"/>
+<text x="529.6" y="102" class="value">233</text>
+<text x="716" y="92.0" text-anchor="end" class="muted">−7.5% expansions</text>
+<text x="120" y="146.0" text-anchor="end" class="label">Baseline · cheap</text>
+<rect x="130" y="124" width="410.5" height="16" rx="2" class="s0"/>
+<text x="546.5" y="136" class="value">243</text>
+<rect x="130" y="144" width="381.7" height="16" rx="2" class="s1"/>
+<text x="517.7" y="156" class="value">226</text>
+<text x="716" y="146.0" text-anchor="end" class="muted">−7.0% expansions</text>
+<text x="120" y="200.0" text-anchor="end" class="label">Failures · fast</text>
+<rect x="130" y="178" width="447.6" height="16" rx="2" class="s0"/>
+<text x="583.6" y="190" class="value">265</text>
+<rect x="130" y="198" width="412.1" height="16" rx="2" class="s1"/>
+<text x="548.1" y="210" class="value">244</text>
+<text x="716" y="200.0" text-anchor="end" class="muted">−7.9% expansions</text>
+<text x="120" y="254.0" text-anchor="end" class="label">Failures · cheap</text>
+<rect x="130" y="232" width="432.4" height="16" rx="2" class="s0"/>
+<text x="568.4" y="244" class="value">256</text>
+<rect x="130" y="252" width="400.3" height="16" rx="2" class="s1"/>
+<text x="536.3" y="264" class="value">237</text>
+<text x="716" y="254.0" text-anchor="end" class="muted">−7.4% expansions</text>
+</svg>

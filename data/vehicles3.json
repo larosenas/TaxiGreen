@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ICE1",
+    "kind": "ICE",
+    "capacity_pax": 4,
+    "start_node": "A",
+    "energy_max": 10.0,
+    "energy_now": 6.0,
+    "consumption_per_km": 0.3
+  },
+  {
+    "id": "EV1",
+    "kind": "EV",
+    "capacity_pax": 4,
+    "start_node": "B2",
+    "energy_max": 10.0,
+    "energy_now": 6.0,
+    "consumption_per_km": 0.5
+  }
+]

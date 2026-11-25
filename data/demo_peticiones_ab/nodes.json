@@ -1,0 +1,32 @@
+[
+  {
+    "id": "A",
+    "name": "A",
+    "kind": "pickup"
+  },
+  {
+    "id": "B",
+    "name": "B",
+    "kind": "pickup"
+  },
+  {
+    "id": "A2",
+    "name": "A2",
+    "kind": "pickup"
+  },
+  {
+    "id": "B2",
+    "name": "B2",
+    "kind": "pickup"
+  },
+  {
+    "id": "C2",
+    "name": "C2",
+    "kind": "hub"
+  },
+  {
+    "id": "D",
+    "name": "D",
+    "kind": "poi"
+  }
+]

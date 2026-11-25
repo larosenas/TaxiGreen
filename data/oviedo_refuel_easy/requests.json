@@ -1,0 +1,29 @@
+[
+  {
+    "id": "R_EV1",
+    "t_min": 1,
+    "origin": "URIA",
+    "destination": "ESTACION",
+    "pax": 1,
+    "priority": 5,
+    "vehicle_pref": "EV"
+  },
+  {
+    "id": "R_ICE1",
+    "t_min": 2,
+    "origin": "URIA",
+    "destination": "CATEDRAL",
+    "pax": 1,
+    "priority": 4,
+    "vehicle_pref": "ICE"
+  },
+  {
+    "id": "R_EV2",
+    "t_min": 6,
+    "origin": "CALATRAVA",
+    "destination": "URIA",
+    "pax": 1,
+    "priority": 3,
+    "vehicle_pref": "EV"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "time_step_min",
+    "pricing",
+    "weights"
+  ],
+  "properties": {
+    "time_step_min": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "pricing": {
+      "type": "object",
+      "properties": {
+        "kwh": {
+          "type": "number",
+          "minimum": 0
+        },
+        "liter": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "weights": {
+      "type": "object",
+      "properties": {
+        "per_km": {
+          "type": "number",
+          "minimum": 0
+        },
+        "per_min": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "externalities": {
+      "type": "object"
+    },
+    "queues": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

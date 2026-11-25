@@ -1,0 +1,32 @@
+[
+  {
+    "id": "URIA",
+    "name": "Uría (Centro)",
+    "kind": "pickup"
+  },
+  {
+    "id": "CALATRAVA",
+    "name": "Calatrava",
+    "kind": "pickup"
+  },
+  {
+    "id": "MILAN",
+    "name": "Barrio de Milán",
+    "kind": "pickup"
+  },
+  {
+    "id": "CATEDRAL",
+    "name": "Plaza de la Catedral",
+    "kind": "pickup"
+  },
+  {
+    "id": "ESTACION",
+    "name": "Estación de Autobuses",
+    "kind": "hub"
+  },
+  {
+    "id": "HUCA",
+    "name": "HUCA (Hospital)",
+    "kind": "hub"
+  }
+]

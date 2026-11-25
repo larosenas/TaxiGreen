@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated simulation output
+out*/
+experiments/report/baseline/
+experiments/report/fail/
+experiments/report/fail_seeds/
+experiments/report/plots/
+
+# Private working notes
+CLAUDE.md
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

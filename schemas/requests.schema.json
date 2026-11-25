@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "t_min",
+      "origin",
+      "destination",
+      "pax"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "t_min": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "origin": {
+        "type": "string",
+        "minLength": 1
+      },
+      "destination": {
+        "type": "string",
+        "minLength": 1
+      },
+      "pax": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "priority": {
+        "type": "integer"
+      },
+      "vehicle_pref": {
+        "type": "string",
+        "enum": [
+          "EV",
+          "ICE",
+          "any"
+        ]
+      },
+      "deadline_min": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 0
+      }
+    },
+    "additionalProperties": false
+  }
+}

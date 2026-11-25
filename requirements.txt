@@ -1,0 +1,9 @@
+# The simulator core uses only the Python standard library (Python 3.10+).
+# Everything below is optional.
+
+# Strict JSON Schema validation in validate_data.py
+jsonschema>=4.0
+
+# Plots for the experiment suite (tools/run_suite.py, tools/make_plots.py)
+pandas>=2.0
+matplotlib>=3.7

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "R1",
+    "t_min": 1,
+    "origin": "A",
+    "destination": "B",
+    "pax": 1,
+    "priority": 3,
+    "vehicle_pref": "any"
+  },
+  {
+    "id": "R2",
+    "t_min": 2,
+    "origin": "A2",
+    "destination": "B2",
+    "pax": 1,
+    "priority": 4,
+    "vehicle_pref": "any"
+  },
+  {
+    "id": "R3",
+    "t_min": 3,
+    "origin": "D",
+    "destination": "A",
+    "pax": 1,
+    "priority": 5,
+    "vehicle_pref": "any"
+  }
+]

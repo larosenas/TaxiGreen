@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas_A",
+    "node_id": "A",
+    "type": "gas",
+    "capacity": 1,
+    "service_min": 4,
+    "price_per_unit": 1.8
+  },
+  {
+    "id": "chg_C2",
+    "node_id": "C2",
+    "type": "charger",
+    "capacity": 1,
+    "service_min": 20,
+    "price_per_unit": 0.3
+  }
+]

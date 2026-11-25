@@ -1,0 +1,38 @@
+[
+  {
+    "id": "EV_A",
+    "kind": "EV",
+    "capacity_pax": 4,
+    "start_node": "URIA",
+    "energy_max": 12.0,
+    "energy_now": 1.0,
+    "consumption_per_km": 0.6
+  },
+  {
+    "id": "EV_B",
+    "kind": "EV",
+    "capacity_pax": 4,
+    "start_node": "MILAN",
+    "energy_max": 12.0,
+    "energy_now": 1.2,
+    "consumption_per_km": 0.6
+  },
+  {
+    "id": "ICE_A",
+    "kind": "ICE",
+    "capacity_pax": 4,
+    "start_node": "ESTACION",
+    "energy_max": 12.0,
+    "energy_now": 1.0,
+    "consumption_per_km": 0.35
+  },
+  {
+    "id": "ICE_B",
+    "kind": "ICE",
+    "capacity_pax": 4,
+    "start_node": "CALATRAVA",
+    "energy_max": 12.0,
+    "energy_now": 0.9,
+    "consumption_per_km": 0.35
+  }
+]

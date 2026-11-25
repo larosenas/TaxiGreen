@@ -1,0 +1,92 @@
+[
+  {
+    "id": "S01",
+    "t_min": 1,
+    "origin": "URIA",
+    "destination": "ESTACION",
+    "pax": 1,
+    "priority": 5,
+    "vehicle_pref": "any"
+  },
+  {
+    "id": "S02",
+    "t_min": 2,
+    "origin": "ESTACION",
+    "destination": "URIA",
+    "pax": 2,
+    "priority": 4,
+    "vehicle_pref": "ICE"
+  },
+  {
+    "id": "S03",
+    "t_min": 3,
+    "origin": "MILAN",
+    "destination": "CALATRAVA",
+    "pax": 1,
+    "priority": 5,
+    "vehicle_pref": "EV"
+  },
+  {
+    "id": "S04",
+    "t_min": 5,
+    "origin": "URIA",
+    "destination": "CALATRAVA",
+    "pax": 1,
+    "priority": 3,
+    "vehicle_pref": "any"
+  },
+  {
+    "id": "S05",
+    "t_min": 7,
+    "origin": "CALATRAVA",
+    "destination": "ESTACION",
+    "pax": 1,
+    "priority": 4,
+    "vehicle_pref": "any"
+  },
+  {
+    "id": "S06",
+    "t_min": 9,
+    "origin": "ESTACION",
+    "destination": "URIA",
+    "pax": 3,
+    "priority": 2,
+    "vehicle_pref": "any"
+  },
+  {
+    "id": "S07",
+    "t_min": 11,
+    "origin": "URIA",
+    "destination": "CATEDRAL",
+    "pax": 1,
+    "priority": 5,
+    "vehicle_pref": "any"
+  },
+  {
+    "id": "S08",
+    "t_min": 13,
+    "origin": "MILAN",
+    "destination": "URIA",
+    "pax": 2,
+    "priority": 3,
+    "vehicle_pref": "EV"
+  },
+  {
+    "id": "S09",
+    "t_min": 15,
+    "origin": "HUCA",
+    "destination": "CALATRAVA",
+    "pax": 1,
+    "priority": 4,
+    "vehicle_pref": "any"
+  },
+  {
+    "id": "S10",
+    "t_min": 17,
+    "origin": "CALATRAVA",
+    "destination": "URIA",
+    "pax": 1,
+    "priority": 3,
+    "vehicle_pref": "any"
+  }
+]

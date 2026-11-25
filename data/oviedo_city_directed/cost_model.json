@@ -1,0 +1,13 @@
+{
+  "time_step_min": 1,
+  "pricing": {
+    "kwh": 0.3,
+    "liter": 1.8
+  },
+  "weights": {
+    "per_km": 0.5,
+    "per_min": 0.2
+  },
+  "externalities": {},
+  "queues": {}
+}

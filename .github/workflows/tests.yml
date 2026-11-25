@@ -1,0 +1,27 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Unit tests
+        run: python tests/run_tests.py
+      - name: Smoke run (event engine)
+        run: python run_sim.py --data data/oviedo_city --quiet --out out_ci
+      - name: Validate datasets
+        run: |
+          for d in data/oviedo_city data/oviedo_refuel_easy data/oviedo_refuel_stress; do
+            python validate_data.py --data "$d" --schemas schemas
+          done

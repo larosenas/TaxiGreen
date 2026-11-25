@@ -1,0 +1,34 @@
+[
+  {
+    "id": "gas_est",
+    "node_id": "ESTACION",
+    "type": "gas",
+    "capacity": 2,
+    "service_min": 5,
+    "price_per_unit": 1.8
+  },
+  {
+    "id": "gas_mil",
+    "node_id": "MILAN",
+    "type": "gas",
+    "capacity": 1,
+    "service_min": 5,
+    "price_per_unit": 1.8
+  },
+  {
+    "id": "chg_cal",
+    "node_id": "CALATRAVA",
+    "type": "charger",
+    "capacity": 2,
+    "service_min": 25,
+    "price_per_unit": 0.3
+  },
+  {
+    "id": "chg_huca",
+    "node_id": "HUCA",
+    "type": "charger",
+    "capacity": 2,
+    "service_min": 25,
+    "price_per_unit": 0.3
+  }
+]
